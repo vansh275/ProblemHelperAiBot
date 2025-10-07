@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Helper Settings</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <h1>AI Helper Settings</h1>
+    <p>Please enter your Gemini API Key.</p>
+
+    <div class="input-group">
+        <label for="apiKey">Gemini API Key:</label>
+        <input type="password" id="apiKey" placeholder="Enter your key here" autocomplete="off">
+        <button id="saveButton">Save</button>
+        <p id="statusMessage"></p>
+    </div>
+
+    <a href="https://aistudio.google.com/app/apikey" target="_blank">Click here to get your API key</a>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
